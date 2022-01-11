@@ -1,0 +1,60 @@
+.outside{
+    height: 842px;
+    width: 595px;
+    /* to centre page on screen*/
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+    position: relative;
+    box-shadow: 0 0 10px black;
+}
+
+body{
+    background-image: url("img/mbwall.jpg") ;
+    background-size: 100% 100%;
+    background-position: contain;
+    height: 100vh;
+}
+
+.info{
+    height: 800px;
+    width: 130px;
+    background-color: #e8e8e8;
+    position: absolute;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 3px #aaaaaa;
+}
+
+.info img{
+    max-width: 100%;
+    width: 75px;
+    height: 80px;
+
+}
+
+.top{
+    width: 565px;
+    height: 120px;
+    background-color: #b9c2cb;
+    position: absolute;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.top p{
+    text-align: center;
+    vertical-align: center;
+    font-size: 34px;
+    font-family: 'Lato';
+    line-height: 0px;
+}
+
+.info p{
+    font-family: 'Lato';
+    text-align: left;
+    line-height: 30px;
+}
